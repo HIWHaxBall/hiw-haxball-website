@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Competencias - Hiw International</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/competencias.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <img src="https://images-ext-1.discordapp.net/external/LsdGx_pbDx8fPwDVw9KGkvpZIkVFvKhCRycwIpL32Ug/%3Fsize%3D128/https/cdn.discordapp.com/icons/1357840820350484642/be8ae3cb4ced8943e9972921433d0b28.png?format=webp&quality=lossless&width=115&height=115" alt="Hiw International Logo" class="logo">
+                <span>Hiw International</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li class="dropdown active">
+                    <a href="competencias.html">Competencias <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="competencias.html">PRIMERA DIVISIÓN FUTX5</a></li>
+                    </ul>
+                </li>
+                <li><a href="clubes.html">Clubes</a></li>
+                <li><a href="estadisticas.html">Estadísticas</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="competencias-main">
+        <h1>PRIMERA DIVISIÓN FUTX5</h1>
+        
+        <div class="tabs">
+            <button class="tab-button active" onclick="openTab('tabla-posiciones')">Tabla de Posiciones</button>
+            <button class="tab-button" onclick="openTab('partidos')">Partidos</button>
+            <button class="tab-button" onclick="openTab('estadisticas-comp')">Estadísticas</button>
+        </div>
+        
+        <div id="tabla-posiciones" class="tab-content active">
+            <h2>Tabla de Posiciones</h2>
+            <div class="table-container">
+                <table class="standings-table" id="standingsTable">
+                    <!-- La tabla se generará automáticamente desde JavaScript -->
+                </table>
+            </div>
+        </div>
+        
+        <div id="partidos" class="tab-content">
+            <h2>Partidos</h2>
+            <div class="matchdays-container" id="matchdaysContainer">
+                <!-- Los partidos se generarán automáticamente desde JavaScript -->
+            </div>
+        </div>
+        
+        <div id="estadisticas-comp" class="tab-content">
+            <h2>Estadísticas de la Competencia</h2>
+            <div class="stats-tabs">
+                <button class="stats-tab-button active" onclick="openStatsTab('goles')">Goleadores</button>
+                <button class="stats-tab-button" onclick="openStatsTab('asistencias')">Asistencias</button>
+                <button class="stats-tab-button" onclick="openStatsTab('mvp')">MVP</button>
+            </div>
+            
+            <div id="goles" class="stats-tab-content active">
+                <h3>Top 10 Goleadores</h3>
+                <table class="stats-table" id="goalsTable">
+                    <!-- La tabla se generará automáticamente desde JavaScript -->
+                </table>
+            </div>
+            
+            <div id="asistencias" class="stats-tab-content">
+                <h3>Top 10 Asistencias</h3>
+                <table class="stats-table" id="assistsTable">
+                    <!-- La tabla se generará automáticamente desde JavaScript -->
+                </table>
+            </div>
+            
+            <div id="mvp" class="stats-tab-content">
+                <h3>Top 10 MVP</h3>
+                <table class="stats-table" id="mvpTable">
+                    <!-- La tabla se generará automáticamente desde JavaScript -->
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Hiw International - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/competencias.js"></script>
+</body>
+</html>

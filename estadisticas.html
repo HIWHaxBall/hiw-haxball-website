@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estadísticas - Hiw International</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/estadisticas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <img src="https://images-ext-1.discordapp.net/external/LsdGx_pbDx8fPwDVw9KGkvpZIkVFvKhCRycwIpL32Ug/%3Fsize%3D128/https/cdn.discordapp.com/icons/1357840820350484642/be8ae3cb4ced8943e9972921433d0b28.png?format=webp&quality=lossless&width=115&height=115" alt="Hiw International Logo" class="logo">
+                <span>Hiw International</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li class="dropdown">
+                    <a href="competencias.html">Competencias <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="competencias.html">PRIMERA DIVISIÓN FUTX5</a></li>
+                    </ul>
+                </li>
+                <li><a href="clubes.html">Clubes</a></li>
+                <li class="active"><a href="estadisticas.html">Estadísticas</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="estadisticas-main">
+        <h1>Estadísticas Generales</h1>
+        
+        <div class="stats-tabs">
+            <button class="stats-tab-button active" onclick="openStatsTab('goles-totales')">Goles</button>
+            <button class="stats-tab-button" onclick="openStatsTab('asistencias-totales')">Asistencias</button>
+            <button class="stats-tab-button" onclick="openStatsTab('mvp-totales')">MVP</button>
+        </div>
+        
+        <div id="goles-totales" class="stats-tab-content active">
+            <h2>Top 10 Goleadores</h2>
+            <table class="stats-table">
+                <thead>
+                    <tr>
+                        <th>Pos</th>
+                        <th>Jugador</th>
+                        <th>Equipo</th>
+                        <th>Goles</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Add top 10 scorers here -->
+                    <tr><td>1</td><td></td><td></td><td></td></tr>
+                    <tr><td>2</td><td></td><td></td><td></td></tr>
+                    <tr><td>3</td><td></td><td></td><td></td></tr>
+                    <tr><td>4</td><td></td><td></td><td></td></tr>
+                    <tr><td>5</td><td></td><td></td><td></td></tr>
+                    <tr><td>6</td><td></td><td></td><td></td></tr>
+                    <tr><td>7</td><td></td><td></td><td></td></tr>
+                    <tr><td>8</td><td></td><td></td><td></td></tr>
+                    <tr><td>9</td><td></td><td></td><td></td></tr>
+                    <tr><td>10</td><td></td><td></td><td></td></tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div id="asistencias-totales" class="stats-tab-content">
+            <h2>Top 10 Asistencias</h2>
+            <table class="stats-table">
+                <thead>
+                    <tr>
+                        <th>Pos</th>
+                        <th>Jugador</th>
+                        <th>Equipo</th>
+                        <th>Asistencias</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Add top 10 assists here -->
+                    <tr><td>1</td><td></td><td></td><td></td></tr>
+                    <tr><td>2</td><td></td><td></td><td></td></tr>
+                    <tr><td>3</td><td></td><td></td><td></td></tr>
+                    <tr><td>4</td><td></td><td></td><td></td></tr>
+                    <tr><td>5</td><td></td><td></td><td></td></tr>
+                    <tr><td>6</td><td></td><td></td><td></td></tr>
+                    <tr><td>7</td><td></td><td></td><td></td></tr>
+                    <tr><td>8</td><td></td><td></td><td></td></tr>
+                    <tr><td>9</td><td></td><td></td><td></td></tr>
+                    <tr><td>10</td><td></td><td></td><td></td></tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div id="mvp-totales" class="stats-tab-content">
+            <h2>Top 10 MVP</h2>
+            <table class="stats-table">
+                <thead>
+                    <tr>
+                        <th>Pos</th>
+                        <th>Jugador</th>
+                        <th>Equipo</th>
+                        <th>MVP</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Add top 10 MVP here -->
+                    <tr><td>1</td><td></td><td></td><td></td></tr>
+                    <tr><td>2</td><td></td><td></td><td></td></tr>
+                    <tr><td>3</td><td></td><td></td><td></td></tr>
+                    <tr><td>4</td><td></td><td></td><td></td></tr>
+                    <tr><td>5</td><td></td><td></td><td></td></tr>
+                    <tr><td>6</td><td></td><td></td><td></td></tr>
+                    <tr><td>7</td><td></td><td></td><td></td></tr>
+                    <tr><td>8</td><td></td><td></td><td></td></tr>
+                    <tr><td>9</td><td></td><td></td><td></td></tr>
+                    <tr><td>10</td><td></td><td></td><td></td></tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Hiw International - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/estadisticas.js"></script>
+</body>
+</html>

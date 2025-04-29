@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticias - Hiw International</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/noticias.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-container">
+                <img src="https://images-ext-1.discordapp.net/external/LsdGx_pbDx8fPwDVw9KGkvpZIkVFvKhCRycwIpL32Ug/%3Fsize%3D128/https/cdn.discordapp.com/icons/1357840820350484642/be8ae3cb4ced8943e9972921433d0b28.png?format=webp&quality=lossless&width=115&height=115" alt="Hiw International Logo" class="logo">
+                <span>Hiw International</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li class="dropdown">
+                    <a href="competencias.html">Competencias <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="competencias.html">PRIMERA DIVISIÓN FUTX5</a></li>
+                    </ul>
+                </li>
+                <li><a href="clubes.html">Clubes</a></li>
+                <li><a href="estadisticas.html">Estadísticas</a></li>
+                <li class="active"><a href="noticias.html">Noticias</a></li>
+            </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="noticias-main">
+        <h1>Noticias</h1>
+        
+        <div class="news-container" id="newsContainer">
+            <!-- Las noticias se generarán automáticamente desde JavaScript -->
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Hiw International - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/noticias.js"></script>
+</body>
+</html>

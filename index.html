@@ -3,110 +3,176 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HIW International HaxBall</title>
-    <link rel="stylesheet" href="css/inicio.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Hiw International - HaxBall</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="logo-container">
-            <img src="https://images-ext-1.discordapp.net/external/GleeQQU_uPaBWBPdVp0WDwnZ1dyMxRvSofV-2UZ0DAY/%3Fsize%3D2048/https/cdn.discordapp.com/icons/1357840820350484642/be8ae3cb4ced8943e9972921433d0b28.png?format=webp&quality=lossless&width=230&height=230" alt="HIW International Logo" class="logo">
-        </div>
-        <nav class="main-nav">
-            <ul>
+    <!-- Header con efecto parallax -->
+    <header class="hero-header">
+        <nav class="glass-nav">
+            <div class="logo-container">
+                <img src="https://images-ext-1.discordapp.net/external/LsdGx_pbDx8fPwDVw9KGkvpZIkVFvKhCRycwIpL32Ug/%3Fsize%3D128/https/cdn.discordapp.com/icons/1357840820350484642/be8ae3cb4ced8943e9972921433d0b28.png?format=webp&quality=lossless&width=115&height=115" alt="Hiw International Logo" class="logo">
+                <span class="logo-text">Hiw International</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Inicio</a></li>
                 <li class="dropdown">
-                    <a href="competiciones.html">Competiciones <i class="fas fa-chevron-down"></i></a>
-                    <div class="dropdown-content">
-                        <a href="competiciones.html#libertadores">Libertadores</a>
-                    </div>
+                    <a href="competencias.html"><i class="fas fa-trophy"></i> Competencias <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="competencias.html">PRIMERA DIVISIÓN FUTX5</a></li>
+                    </ul>
                 </li>
-                <li class="dropdown">
-                    <a href="galardones.html">Galardones <i class="fas fa-chevron-down"></i></a>
-                    <div class="dropdown-content">
-                        <a href="galardones.html#balon-dor">Balón de Oro</a>
-                        <a href="galardones.html#golden-boy">Golden Boy</a>
-                        <a href="galardones.html#bota-oro">Bota de Oro</a>
-                        <a href="galardones.html#myster-top">Myster Top</a>
-                        <a href="galardones.html#mejor-equipo">Mejor Equipo</a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a href="clubes.html">Clubes <i class="fas fa-chevron-down"></i></a>
-                    <div class="dropdown-content">
-                        <a href="clubes.html#todos-clubes">Todos los Clubes</a>
-                    </div>
-                </li>
-                <li class="dropdown">
-                    <a href="partidos.html">Partidos <i class="fas fa-chevron-down"></i></a>
-                    <div class="dropdown-content">
-                        <a href="partidos.html#libertadores">Libertadores</a>
-                    </div>
-                </li>
+                <li><a href="clubes.html"><i class="fas fa-users"></i> Clubes</a></li>
+                <li><a href="estadisticas.html"><i class="fas fa-chart-bar"></i> Estadísticas</a></li>
+                <li><a href="noticias.html"><i class="fas fa-newspaper"></i> Noticias</a></li>
             </ul>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
         </nav>
+        <div class="hero-content">
+            <h1 class="hero-title">HIW INTERNATIONAL</h1>
+            <p class="hero-subtitle">La liga de HaxBall más competitiva</p>
+            <div class="hero-buttons">
+                <a href="competencias.html" class="btn-primary">Ver Competencias</a>
+                <a href="noticias.html" class="btn-secondary">Últimas Noticias</a>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </div>
     </header>
 
-    <main>
-        <section class="hero">
-            <h1>Bienvenidos a HIW International HaxBall</h1>
-            <p>Tu fuente definitiva para toda la información sobre el mundo del HaxBall</p>
-            <div class="hero-image">
-                <img src="https://cdn.discordapp.com/icons/1357840820350484642/be8ae3cb4ced8943e9972921433d0b28.png?size=2048">
-            </div>
-        </section>
-
-        <section class="features">
-            <div class="feature-card">
-                <i class="fas fa-trophy"></i>
-                <h3>Competiciones</h3>
-                <p>Descubre todas las competiciones disponibles y sus participantes.</p>
-            </div>
-            <div class="feature-card">
-                <i class="fas fa-award"></i>
-                <h3>Galardones</h3>
-                <p>Conoce los premios y reconocimientos a los mejores del torneo.</p>
-            </div>
-            <div class="feature-card">
-                <i class="fas fa-users"></i>
-                <h3>Clubes</h3>
-                <p>Explora todos los clubes participantes con sus escudos e información.</p>
-            </div>
-            <div class="feature-card">
-                <i class="fas fa-calendar-alt"></i>
-                <h3>Partidos</h3>
-                <p>Mantente al día con el calendario de partidos y resultados.</p>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="footer-content">
-            <div class="footer-logo">
-                <img src="https://images-ext-1.discordapp.net/external/GleeQQU_uPaBWBPdVp0WDwnZ1dyMxRvSofV-2UZ0DAY/%3Fsize%3D2048/https/cdn.discordapp.com/icons/1357840820350484642/be8ae3cb4ced8943e9972921433d0b28.png?format=webp&quality=lossless&width=230&height=230" alt="HIW International Logo">
-            </div>
-            <div class="footer-links">
-                <h4>Enlaces Rápidos</h4>
-                <ul>
-                    <li><a href="competiciones.html">Competiciones</a></li>
-                    <li><a href="galardones.html">Galardones</a></li>
-                    <li><a href="clubes.html">Clubes</a></li>
-                    <li><a href="partidos.html">Partidos</a></li>
-                </ul>
-            </div>
-            <div class="footer-social">
-                <h4>Síguenos</h4>
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-discord"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
+    <!-- Sección de Bienvenida -->
+    <section class="welcome-section">
+        <div class="container">
+            <h2 class="section-title">Bienvenido a Hiw International</h2>
+            <p class="section-description">Aquí encontrarás todo tipo de información sobre nuestra liga, noticias, resultados y mucho más.</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Competiciones</h3>
+                    <p>Sigue todas las competiciones en tiempo real con estadísticas detalladas.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Clubes</h3>
+                    <p>Conoce todos los clubes participantes y sus jugadores estelares.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Estadísticas</h3>
+                    <p>Analiza el rendimiento de jugadores y equipos con datos avanzados.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-newspaper"></i>
+                    </div>
+                    <h3>Noticias</h3>
+                    <p>Mantente informado con las últimas novedades de la liga.</p>
                 </div>
             </div>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2023 HIW International HaxBall. Todos los derechos reservados.</p>
+    </section>
+
+    <!-- Sección de Destacados -->
+    <section class="highlights-section">
+        <div class="container">
+            <h2 class="section-title">Lo más destacado</h2>
+            
+            <div class="highlight-slider">
+                <div class="highlight-card">
+                    <div class="highlight-image" style="background-image: url('https://via.placeholder.com/800x500?text=Partido+Destacado');">
+                        <div class="highlight-badge">Destacado</div>
+                    </div>
+                    <div class="highlight-content">
+                        <h3>Junior de Barranquilla lidera la tabla</h3>
+                        <p>El equipo se consolida en el primer lugar tras una victoria contundente en la última fecha.</p>
+                        <a href="#" class="btn-read-more">Leer más</a>
+                    </div>
+                </div>
+                
+                <div class="highlight-card">
+                    <div class="highlight-image" style="background-image: url('https://via.placeholder.com/800x500?text=Nuevo+Fichaje');">
+                        <div class="highlight-badge">Novedad</div>
+                    </div>
+                    <div class="highlight-content">
+                        <h3>Nuevo fichaje para Club Atlético Aldosivi</h3>
+                        <p>El club anuncia el fichaje del jugador estrella Juan Pérez para reforzar su delantera.</p>
+                        <a href="#" class="btn-read-more">Leer más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Sponsors -->
+    <section class="sponsors-section">
+        <div class="container">
+            <h2 class="section-title">Nuestros Patrocinadores</h2>
+            <div class="sponsors-grid">
+                <img src="https://via.placeholder.com/150x80?text=Sponsor+1" alt="Sponsor 1">
+                <img src="https://via.placeholder.com/150x80?text=Sponsor+2" alt="Sponsor 2">
+                <img src="https://via.placeholder.com/150x80?text=Sponsor+3" alt="Sponsor 3">
+                <img src="https://via.placeholder.com/150x80?text=Sponsor+4" alt="Sponsor 4">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>Hiw International</h3>
+                    <p>La liga de HaxBall más emocionante y competitiva. Únete a la comunidad y sigue toda la acción.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-twitch"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="competencias.html">Competiciones</a></li>
+                        <li><a href="clubes.html">Clubes</a></li>
+                        <li><a href="estadisticas.html">Estadísticas</a></li>
+                        <li><a href="noticias.html">Noticias</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> contacto@hiwinternational.com</li>
+                        <li><i class="fas fa-phone"></i> +123 456 7890</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 Hiw International. Todos los derechos reservados.</p>
+            </div>
         </div>
     </footer>
 
-    <script src="js/inicio.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

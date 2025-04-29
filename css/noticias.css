@@ -1,0 +1,86 @@
+/* Noticias Page Styles */
+.noticias-main {
+    padding: 2rem 0;
+}
+
+.news-container {
+    display: grid;
+    gap: 2rem;
+}
+
+.news-article {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.news-article:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.news-header {
+    padding: 1.5rem;
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    position: relative;
+}
+
+.news-header h2 {
+    color: var(--text-light);
+    margin-bottom: 0.5rem;
+}
+
+.news-date {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.news-content {
+    padding: 1.5rem;
+}
+
+.news-content p {
+    margin-bottom: 1rem;
+}
+
+.news-content p:last-child {
+    margin-bottom: 0;
+}
+
+.news-footer {
+    padding: 1rem 1.5rem;
+    background-color: #f9f9f9;
+    border-top: 1px solid #eee;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.instructions {
+    background-color: #f8f9fa;
+    border-left: 4px solid var(--secondary-color);
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 0 5px 5px 0;
+}
+
+.instructions pre {
+    background-color: #2d2d2d;
+    color: #f8f8f2;
+    padding: 1rem;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .news-header, 
+    .news-content, 
+    .news-footer {
+        padding: 1rem;
+    }
+}

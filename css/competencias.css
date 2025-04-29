@@ -1,0 +1,230 @@
+/* Competencias Page Styles */
+.competencias-main {
+    padding: 2rem 0;
+}
+
+.tabs {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1rem;
+}
+
+.tab-button {
+    padding: 0.5rem 1.5rem;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--text-color);
+    transition: var(--transition);
+}
+
+.tab-button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.tab-button.active {
+    background-color: var(--secondary-color);
+    color: var(--text-light);
+}
+
+.tab-content {
+    display: none;
+    animation: fadeIn 0.5s ease;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Tables */
+.table-container {
+    overflow-x: auto;
+    margin-bottom: 2rem;
+}
+
+.standings-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    box-shadow: var(--shadow);
+}
+
+.standings-table th, 
+.standings-table td {
+    padding: 0.75rem 1rem;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.standings-table th {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    font-weight: bold;
+}
+
+.standings-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.standings-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.standings-table td:first-child {
+    font-weight: bold;
+}
+
+.standings-table td:nth-child(2) {
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Matchdays */
+.matchdays-container {
+    margin-top: 2rem;
+}
+
+.matchday {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: var(--shadow);
+}
+
+.matchday h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.matches {
+    display: grid;
+    gap: 1rem;
+}
+
+.match {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+.team {
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+}
+
+.home {
+    text-align: right;
+}
+
+.away {
+    text-align: left;
+}
+
+.score {
+    flex: 0 0 80px;
+    text-align: center;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+/* Stats Tabs */
+.stats-tabs {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.stats-tab-button {
+    padding: 0.5rem 1.5rem;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: var(--text-color);
+    transition: var(--transition);
+}
+
+.stats-tab-button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.stats-tab-button.active {
+    background-color: var(--secondary-color);
+    color: var(--text-light);
+}
+
+.stats-tab-content {
+    display: none;
+    animation: fadeIn 0.5s ease;
+}
+
+.stats-tab-content.active {
+    display: block;
+}
+
+.stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    box-shadow: var(--shadow);
+}
+
+.stats-table th, 
+.stats-table td {
+    padding: 0.75rem 1rem;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.stats-table th {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+    font-weight: bold;
+}
+
+.stats-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.stats-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.stats-table td:first-child {
+    font-weight: bold;
+}
+
+/* Instructions */
+.instructions {
+    background-color: #f8f9fa;
+    border-left: 4px solid var(--secondary-color);
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 0 5px 5px 0;
+}
+
+.instructions pre {
+    background-color: #2d2d2d;
+    color: #f8f8f2;
+    padding: 1rem;
+    border-radius: 5px;
+    overflow-x: auto;
+    margin-top: 0.5rem;
+}

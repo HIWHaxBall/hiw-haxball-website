@@ -1,6 +1,15 @@
 // AÑADE TUS NOTICIAS AQUÍ
 const newsData = [
     {
+        title: "¡Remontada épica de Club Atlético Aldosivi!",
+        date: "25 de abril de 2025",
+        content: `
+            <p>En uno de los encuentros más emocionantes de la temporada, Club Atlético Aldosivi logró una remontada épica ante Club Atlético Buenos Aires, imponiéndose por 2-1 en un partido vibrante. Buenos Aires abrió el marcador temprano y parecía tener el control, pero Aldosivi no se dio por vencido y en el segundo tiempo salió con todo, ofreciendo un verdadero espectáculo de fútbol. Con un juego colectivo brillante y una intensidad arrolladora, lograron darle vuelta al resultado con dos golazos que hicieron estallar a la afición.</p>
+            <p>Fue un baile inolvidable que los acerca peligrosamente a la cima de la tabla. El MVP del partido fue Seina, clave tanto en la creación como en la definición. La actuación del equipo dejó en claro que Aldosivi está para cosas grandes esta temporada.</p>
+        `,
+        author: "Prensa Hiw"
+    },
+    {
         title: "Previa de la tercera fecha",
         date: "29 de abril de 2025",
         content: `
@@ -43,6 +52,7 @@ const newsData = [
         author: "Prensa Hiw"
     }
 ];
+
 
 // ==============================================
 // NO NECESITAS MODIFICAR NADA DEBAJO DE ESTA LÍNEA

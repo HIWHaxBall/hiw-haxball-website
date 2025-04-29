@@ -47,48 +47,6 @@ const matchdaysData = [
     // Añade más fechas según sea necesario
 ];
 
-// 3. ESTADÍSTICAS - AÑADE TUS ESTADÍSTICAS AQUÍ
-const statsData = {
-    goals: [
-        { player: "Nadie", team: "Equipo ", goals: 0 },
-        { player: "Nadie", team: "Equipo ", goals: 0 },
-        { player: "Nadie", team: "Equipo ", goals: 0 },
-        { player: "Nadie", team: "Equipo ", goals: 0 },
-        { player: "Nadie", team: "Equipo ", goals: 0 },
-        { player: "Nadie", team: "Equipo ", goals: 0 },
-        { player: "Nadie", team: "Equipo ", goals: 0 },
-        { player: "Nadie", team: "Equipo ", goals: 0 },
-        { player: "Nadie", team: "Equipo ", goals: 0 },
-        { player: "Nadie", team: "Equipo ", goals: 0 }
-        
-    ],
-    assists: [
-        { player: "Nadie", team: "Equipo ", assists: 0 },
-        { player: "Nadie", team: "Equipo ", assists: 0 },
-        { player: "Nadie", team: "Equipo ", assists: 0 },
-        { player: "Nadie", team: "Equipo ", assists: 0 },
-        { player: "Nadie", team: "Equipo ", assists: 0 },
-        { player: "Nadie", team: "Equipo ", assists: 0 },
-        { player: "Nadie", team: "Equipo ", assists: 0 },
-        { player: "Nadie", team: "Equipo ", assists: 0 },
-        { player: "Nadie", team: "Equipo ", assists: 0 },
-        { player: "Nadie", team: "Equipo ", assists: 0 },
-    ],
-    mvp: [
-        { player: "Nadie", team: "Equipo ", mvps: 0 },
-        { player: "Nadie", team: "Equipo ", mvps: 0 },
-        { player: "Nadie", team: "Equipo ", mvps: 0 },
-        { player: "Nadie", team: "Equipo ", mvps: 0 },
-        { player: "Nadie", team: "Equipo ", mvps: 0 },
-        { player: "Nadie", team: "Equipo ", mvps: 0 },
-        { player: "Nadie", team: "Equipo ", mvps: 0 },
-        { player: "Nadie", team: "Equipo ", mvps: 0 },
-        { player: "Nadie", team: "Equipo ", mvps: 0 },
-        { player: "Nadie", team: "Equipo ", mvps: 0 },
-        
-    ]
-};
-
 // ==============================================
 // NO NECESITAS MODIFICAR NADA DEBAJO DE ESTA LÍNEA
 // ==============================================

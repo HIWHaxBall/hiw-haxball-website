@@ -19,7 +19,7 @@ const matchdaysData = [
         matches: [
             { home: "Junior de Barranquilla", away: "OFF", score: "7-0" },
             { home: "Club YSB", away: "Brigada FC", score: "3-0" },
-            { home: "Free Fire Team", away: "Club Atlético Aldosivi", score: "7-0" },
+            { home: "Free Fire Team", away: "Club Atlético Aldosivi", score: "0-7" },
             { home: "Club Atletico B.A", away: "Palestino", score: "3-0" },
             { home: "OFF", away: "Atletico Patagonia Austral", score: "-" }
         ]
@@ -27,7 +27,7 @@ const matchdaysData = [
     {
         matchday: 2,
         matches: [
-            { home: "OFF", away: "Palestino", score: "3-0" },
+            { home: "OFF", away: "Palestino", score: "0-3" },
             { home: "Club Atlético Aldosivi", away: "Club Atletico B.A", score: "2-1" },
             { home: "Club YSB", away: "Free Fire Team", score: "0-0" },
             { home: "Junior de Barranquilla", away: "OFF", score: "3-0" },

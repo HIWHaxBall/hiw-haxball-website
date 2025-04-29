@@ -1,22 +1,12 @@
 // AÑADE TUS NOTICIAS AQUÍ
 const newsData = [
     {
-        title: "¡Arranca la Primera División Fut X5!",
-        date: "19 de abril de 2025",
+        title: "Previa de la tercera fecha",
+        date: "29 de abril de 2025",
         content: `
-            <p>La espera ha terminado: ¡la Primera División Fut X5 ya está en marcha!</p>
-            <p>Nos esperan emocionantes encuentros, jugadas espectaculares y resultados que darán mucho que hablar.</p>
-            <p>¡Que comience el espectáculo!</p>
-        `,
-        author: "Prensa Hiw"
-    },
-    {
-        title: "Resumen de la primera jornada",
-        date: "22 de abril de 2025",
-        content: `
-            <p>Luego de terminar la primera jornada, se han visto muchas sorpresas.</p>
-            <p>Junior de Barranquilla y Club Atlético Aldosivi golearon 7-0 a sus rivales, haciéndose fuertes y colocándose en la cima de la tabla.</p>
-            <p>Club YSB venció 3-0 a Brigada, y Club Atlético Buenos Aires sigue firme en la pelea por el primer puesto tras ganar 3-0 a Palestino.</p>
+            <p>El día de hoy, más tarde, se jugará la tercera fecha de la Primera División Fut X5.</p>
+            <p>Habrá encuentros muy interesantes con el debut de nuevos clubes que se han sumado recientemente a la liga: Selectivo Torito, Team Balanza y Vasineta.</p>
+            <p>Veremos de qué están hechos estos nuevos equipos. ¡Nos vemos después!</p>
         `,
         author: "Prensa Hiw"
     },
@@ -33,12 +23,22 @@ const newsData = [
         author: "Prensa Hiw"
     },
     {
-        title: "Previa de la tercera fecha",
-        date: "29 de abril de 2025",
+        title: "Resumen de la primera jornada",
+        date: "22 de abril de 2025",
         content: `
-            <p>El día de hoy, más tarde, se jugará la tercera fecha de la Primera División Fut X5.</p>
-            <p>Habrá encuentros muy interesantes con el debut de nuevos clubes que se han sumado recientemente a la liga: Selectivo Torito, Team Balanza y Vasineta.</p>
-            <p>Veremos de qué están hechos estos nuevos equipos. ¡Nos vemos después!</p>
+            <p>Luego de terminar la primera jornada, se han visto muchas sorpresas.</p>
+            <p>Junior de Barranquilla y Club Atlético Aldosivi golearon 7-0 a sus rivales, haciéndose fuertes y colocándose en la cima de la tabla.</p>
+            <p>Club YSB venció 3-0 a Brigada, y Club Atlético Buenos Aires sigue firme en la pelea por el primer puesto tras ganar 3-0 a Palestino.</p>
+        `,
+        author: "Prensa Hiw"
+    },
+    {
+        title: "¡Arranca la Primera División Fut X5!",
+        date: "19 de abril de 2025",
+        content: `
+            <p>La espera ha terminado: ¡la Primera División Fut X5 ya está en marcha!</p>
+            <p>Nos esperan emocionantes encuentros, jugadas espectaculares y resultados que darán mucho que hablar.</p>
+            <p>¡Que comience el espectáculo!</p>
         `,
         author: "Prensa Hiw"
     }
